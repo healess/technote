@@ -104,3 +104,12 @@
 #### Ranking 
  - Pointwise (여러 리스트 중에 최적값을 도출) 너무 작은 값에서는 잘 찾지 못함) 0.11과 0.12 : IE: {d1, r1} {d2, r2} {d3, r3} {d4, r4}
  - Pairwise (하나씩 비교) 0 또는 1 => 더 효과를 봄 : IE: {d1 > d2} {d2 > d3} {d3 > d4}
+ 
+## Text Classification
+[참조](https://www.slideshare.net/ssusere94328/deep-learning-text-nlp-and-spark-collaboration-text-nlp-spark)
+ - mecab 처럼 형태소를 잘게 쪼개는 것보다, twitter.pos 에 stem 옵션 주고 될수 있는한 동사등도 원형을 써서 generalization화 해주는게 data 가 작은 경우 성능 향상에 도움이 됨. 조사나 특수기호등은 당연히 제가(데이타가 작을때)
+ - Tensorflow CNN word2vec 기반 (Data가 많을때 성능이 좋음)
+ - Scikit-learn SVM (linear-kernel) 기반
+ - Scikit-learn SVM (rbf-kernel) 기반
+ - Scikit-learn MultinomialNB TF-IDF 기반
+ -  naive bayse, SVM, Random Forest
