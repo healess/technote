@@ -113,3 +113,6 @@
  - Scikit-learn SVM (rbf-kernel) 기반
  - Scikit-learn MultinomialNB TF-IDF 기반
  -  naive bayse, SVM, Random Forest
+
+## Service for 대량 사용자
+ - Memory 처리를 통한 속도 향상
