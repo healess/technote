@@ -2,6 +2,10 @@
 * :%!xxd : hex 편집모드 
 * :%!xxd -r : 원복
 
+## Ubuntu 부팅 후 자동 실행 아래 파일에 추가
+```
+/etc/rc.local
+```
 
 # ImageMagicK 
 moved :  http://dlwiki.finfra.com/for_staff:draft_doc:imagemagick
